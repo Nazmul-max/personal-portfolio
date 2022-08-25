@@ -1,0 +1,110 @@
+.circle-wrap {
+    margin: 0px 5px;
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    /* background: transparent; */
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #e66916;
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+/* How much rotation fix here */
+
+/* (360/100) * 75 = 270 / 2 = 135 */
+.mask.full,
+.circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(135deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(135deg);
+    }
+}
+
+.circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    /* background: transparent; */
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #e66916;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+/* (360/100) * 60 = 216 / 2 = 108 */
+.mask.circle60,
+.circle .circle60 {
+    animation: fill60 ease-in-out 3s;
+    transform: rotate(108deg);
+}
+
+@keyframes fill60 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(108deg);
+    }
+}
+
+/* (360/100) * 60 = 216 / 2 = 108 */
+.mask.circle30,
+.circle .circle30 {
+    animation: fill30 ease-in-out 3s;
+    transform: rotate(54deg);
+}
+
+@keyframes fill30 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(54deg);
+    }
+}
+
+/* (360/100) * 80 = 216 / 2 = 144 */
+.mask.circle80,
+.circle .circle80 {
+    animation: fill80 ease-in-out 3s;
+    transform: rotate(144deg);
+}
+
+@keyframes fill80 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(144deg);
+    }
+}
