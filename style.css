@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+
+/* Header */
+
+#header .nav{
+    background: radial-gradient(circle, #1e1b3b, #31315a);
+}
+#header .nav .logo img{
+    width: 6vh;
+}
+#header-body{
+    padding: 30vh 0;
+}
+#header-body .title-text h5,h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header-body .title-text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    padding-left: 10px ;
+    color: chartreuse;
+}
+.btn-center{
+    display: block;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #fff;
+    transition: all ease-in 0.2s;
+}
+.my-btn{
+    padding: 0.5vh 2vw;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.my-btn:hover{
+    background-color: #ccc;
+    color: #fff;
+}
+/* Header End */
+
+
+/* About Me */
+.about h5{
+    display: flex;
+    justify-content: center;
+}
+.about h1{
+    padding-top: 5%;
+}
+#about-me{
+    background-image: url(./assets/img/bg-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#about-me .for-padding{
+    padding-left: 5vw;
+}
+#about-me .col-md-4{
+    padding-top: 7vh;
+}
+#about-me .col-md-4 h4{
+    padding: 40px 0;
+}
+#about-me .col-md-4 img{
+    width: 15vw;
+    padding-top: 12vh;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* About Me End */
+
+/* Portfolio start */
+
+/* Portfolio End */
+
+/* Footer start */
+#footer{
+    background: #31315a;
+}
+#footer .row .col-md-4 h3{
+    padding: 10% 0;
+}
+#footer .row .col-md-4 h6{
+    padding: 1% 0;
+}
+#footer .row .col-md-4 .row img{
+    width: 50%;
+    border-radius: 100%;
+}
+#footer .copyright{
+    text-align: center;
+    padding: 2px;
+    border-top: 1px solid #fff;
+}
+/* Footer End */
