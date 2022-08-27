@@ -4,9 +4,9 @@
     justify-content: center;
     gap: 10%; */
     /* height: 60vh;  */
-    height: 50vh;
     background: #072238;
     align-items: center;
+    gap: 10px;
 }
 .skill-text{
   padding: 5%;
