@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nazmul Hossen</title>
+    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon">
     <!-- Perticle-bg css link -->
     <link rel="stylesheet" href="./particle-bg.css">
 
@@ -15,13 +16,16 @@
 
     <!-- Main CSS link -->
     <link rel="stylesheet" href="./style.css">
+
     <!-- navbar css link -->
     <link rel="stylesheet" href="./navbar.css">
+    
     <!-- Portfolio-card css link -->
-    <link rel="stylesheet" href="./portfolio-card.css">
+    <link rel="stylesheet" href="./Skill-card.css">
     <link rel="stylesheet" href="./assets/css/circle-skill.css">
     <link rel="stylesheet" href="./assets/css/team-section.css">
     <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
 </head>
 
 <body>
@@ -55,10 +59,11 @@
                         </div>
                         <div id="mainListDiv" class="main_list">
                             <ul class="navlinks">
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#about-me">About</a></li>
+                                <li><a href="#our-portfolio">Portfolio</a></li>
+                                <li><a href="#our-team">Team</a></li>
+                                <li><a href="#skill-box">Skills</a></li>
+                                <li><a href="#footer">Contact</a></li>
                             </ul>
                         </div>
                         <span class="navTrigger d-none">
@@ -74,7 +79,7 @@
                     <h5>HI THERE !</h5>
                     <h1>I'M <span>NAZMUL HOSSEN</span></h1>
                     <p>PROFATIONAL WEB DESIGNER</p>
-                    <button type="button" class="btn my-btn btn-center"><a href="#">MORE ABOUT ME</a></button>
+                    <button type="button" class="btn my-btn btn-center"><a href="#about-me">MORE ABOUT ME</a></button>
                 </div>
             </div>
         </header>
@@ -112,15 +117,67 @@
         <!-- About ME end -->
 
         <!-- Portfolio start-->
-       
+        <section id="our-portfolio">
+            <div class="portfolio-title">
+                <h1><span>OUR PORTFOLIO</span></h1>
+                <h4>Visit our Portfolio</h4>
+            </div>
+            <div class="portfolio container row">
+                <div class="col-md-3">
+                    <a href="https://www.diarionorte.com.uy/sociedad/inauguran-las-esculturas-de-cinetica-y-viento-en-la-plaza-22-de-julio-de-tranqueras-37731.html" target="_blank">
+                        <div class="card">
+                            <div class="photo img1"></div>
+                            <div class="title">
+                                <h4>Health Care</h4>
+                                <h5>Project in 2016</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.diarionorte.com.uy/sociedad/entregan-obras-del-rincon-infantil-de-plaza-paseo-de-los-inmigrantes-en-tranqueras-42916.html" target="_blank">                    
+                        <div class="card">
+                            <div class="photo img2"></div>
+                            <div class="title">
+                                <h4>E-School</h4>
+                                <h5>Project in 2017</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.diarionorte.com.uy/sociedad/no-es-una-plaza-mas-es-una-plaza-que-tiene-una-personalidad-muy-fuerte-46327.html" target="_blank">                    
+                        <div class="card">
+                            <div class="photo img3"></div>
+                            <div class="title">
+                                <h4>JS-Pin-Matcher</h4>
+                                <h5>Project in 2021</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.diarionorte.com.uy/cultura/esculturas-gigantes-del-tranquerense-guillermo-laguna-en-los-150-anos-de-juanico-63428.html" target="_blank">                    
+                        <div class="card">
+                            <div class="photo img4"></div>
+                            <div class="title">
+                                <h4>Personal Portfolio</h4>
+                                <h5>Project in 2022</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            </div>
+        </section>
         <!-- Portfolio End -->
 
         <!-- Skills Section Start -->
-        <section id="portfolio-box" class="overflow-hidden">
-            <div class="portfolio-text">
+        <section id="skill-box" class="overflow-hidden">
+            <div class="skill-text">
                 <h1><span>MY SKILLS</span></h1>
             </div>
-            <div class="portfolio row overflow-hidden justify-content-center py-3">
+            <div class="skill row overflow-hidden justify-content-center py-3">
                 <div class="card-sk col-md-3">
                     <div class="content">
                         <div class="skill-parent d-flex justify-content-center">
@@ -320,29 +377,27 @@
         <!-- Footer start -->
         <footer id="footer" class="">
             <div class="row container">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h3>INFORMATIONS</h3>
-                    <h6>Location</h6>
-                    <h6>Our team</h6>
-                    <h6>Terms of Services</h6>
+                    <h6><a href="#">Location</a></h6>
+                    <h6><a href="#">Our team</a></h6>
+                    <h6><a href="#">Terms of Services</a></h6>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h3>HELP</h3>
-                    <h6>Register</h6>
-                    <h6>sigh in</h6>
-                    <h6>privacy Policy</h6>
+                    <h6><a href="#">Register</a></h6>
+                    <h6><a href="#">Sigh in</a></h6>
+                    <h6><a href="#">Privacy Policy</a></h6>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h3>CONTACT US</h3>
                     <h6>Need Help ?</h6>
                     <h6><b>Contact Number :</b></h6>
                     <p>01846-343102</p>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <a href="#"><img src="./assets/img/social-icons/facebook-Logo-png.png" alt=""></a>
-                        </div>
-                        <div class="col-md-3"><a href="#"><img src="./assets/img/social-icons/Twitter-ico.png" alt=""></a></div>
-                        <div class="col-md-3"><a href="#"><img src="./assets/img/social-icons/instagram-logo.png" alt=""></a></div>
+                    <div class="social-icons">
+                        <a href="#"><img src="./assets/img/social-icons/facebook-Logo-png.png" alt=""></a>
+                        <a href="#"><img src="./assets/img/social-icons/Twitter-ico.png" alt=""></a>
+                        <a href="#"><img src="./assets/img/social-icons/instagram-logo.png" alt=""></a>
                     </div>
                 </div>
             </div>

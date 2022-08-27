@@ -81,7 +81,7 @@ a:hover{
     padding: 40px 0;
 }
 #about-me .col-md-4 img{
-    width: 15vw;
+    width: 60%;
     padding-top: 12vh;
     border-radius: 100%;
     display: block;
@@ -100,14 +100,20 @@ a:hover{
 #footer{
     background: #31315a;
 }
-#footer .row .col-md-4 h3{
-    padding: 10% 0;
+#footer a{
+    color: #fff;
 }
-#footer .row .col-md-4 h6{
+#footer a:hover{
+    color: #ccc;
+}
+#footer .row  h3{
+    padding: 25px 0;
+}
+#footer .row h6{
     padding: 1% 0;
 }
-#footer .row .col-md-4 .row img{
-    width: 50%;
+#footer .row img{
+    width: 40px;
     border-radius: 100%;
 }
 #footer .copyright{
