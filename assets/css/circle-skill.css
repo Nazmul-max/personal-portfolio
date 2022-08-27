@@ -2,10 +2,10 @@
     margin: 0px 5px;
     width: 150px;
     height: 150px;
-    background: #fefcff;
+    background: #c2b8c7;
     /* background: transparent; */
     border-radius: 50%;
-    border: 1px solid #cdcbd0;
+    border: 1px solid #757379;
 }
 
 .circle-wrap .circle .mask,
@@ -18,7 +18,7 @@
 
 .mask .fill {
     clip: rect(0px, 75px, 150px, 0px);
-    background-color: #e66916;
+    background-color: #496f92;
 }
 
 .circle-wrap .circle .mask {
@@ -47,13 +47,13 @@
     width: 122px;
     height: 122px;
     border-radius: 50%;
-    background: #d2eaf1;
+    background: #14323b;
     /* background: transparent; */
     line-height: 120px;
     text-align: center;
     margin-top: 14px;
     margin-left: 14px;
-    color: #e66916;
+    color: #d0d3df;
     position: absolute;
     z-index: 100;
     font-weight: 700;
@@ -77,7 +77,7 @@
     }
 }
 
-/* (360/100) * 60 = 216 / 2 = 108 */
+/* (360/100) * 30 = 216 / 2 = 108 */
 .mask.circle30,
 .circle .circle30 {
     animation: fill30 ease-in-out 3s;
@@ -93,18 +93,18 @@
     }
 }
 
-/* (360/100) * 80 = 216 / 2 = 144 */
-.mask.circle80,
-.circle .circle80 {
-    animation: fill80 ease-in-out 3s;
-    transform: rotate(144deg);
+/* (360/100) * 20 = 216 / 2 = 144 */
+.mask.circle20,
+.circle .circle20 {
+    animation: fill20 ease-in-out 3s;
+    transform: rotate(36deg);
 }
 
-@keyframes fill80 {
+@keyframes fill20 {
     0% {
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(144deg);
+        transform: rotate(36deg);
     }
 }

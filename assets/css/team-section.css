@@ -1,0 +1,70 @@
+#our-team{
+  background: radial-gradient(circle, #06051f,#24246e);
+    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#our-team .team-box{
+  width: 60vw;
+}
+#our-team .card-pink{
+border-radius: 6px; 
+border-bottom:4px solid #ff2c95!important;
+}
+#our-team .card-blue{
+border-radius: 6px; 
+border-bottom:4px solid #1c68b3 !important;
+}
+
+#our-team .col .card img{
+aspect-ratio: 1 / 1;
+object-fit:cover;
+}
+#our-team .card-body{
+padding:1rem 1.5rem;
+background: #62629b;
+
+}
+#our-team .card-footer{
+    background: #62629b;
+}
+#our-team .card-body p{
+color:#ccc;
+}
+#our-team .card-blue svg{
+fill:#1c68b3 ;
+}
+#our-team .card-pink svg{
+fill:#ccc;
+}
+#our-team .card-blue .card-footer p{
+color:#fff ;
+}
+#our-team .card-pink .card-footer p{
+color: #fff;
+}
+#our-team .card-shape{
+position:relative;
+}
+#our-team .custom-shape-divider-bottom-1634717805 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+#our-team .custom-shape-divider-bottom-1634717805 svg {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+#our-team .custom-shape-divider-bottom-1634717805 .shape-fill {
+  fill: #62629b;
+}
