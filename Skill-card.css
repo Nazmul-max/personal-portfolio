@@ -1,14 +1,15 @@
-.portfolio{
+.skill{
     /* display: flex;
     align-items: center;
     justify-content: center;
     gap: 10%; */
     /* height: 60vh;  */
     height: 50vh;
+    background: #072238;
+    align-items: center;
 }
-
-.portfolio-text{
-  padding-top: 10%;
+.skill-text{
+  padding: 5%;
   text-align: center;
 }
 /* .card img{
@@ -20,7 +21,6 @@
     position: relative;
     height: 200px;
     width: 170px;
-    background: none;
     border-radius: 10px;
     overflow: hidden;
   }
